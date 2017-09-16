@@ -1,9 +1,9 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+#markdown:         redcarpet
+#highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+#permalink:        pretty
 #relative_permalinks: true
 
 # Setup
