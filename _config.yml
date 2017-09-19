@@ -11,7 +11,7 @@ title:            Joel Meyers
 tagline:          'Cosmologist'
 description:      'Senior Research Associate'
 #url:              https://joelmeyers.github.io
-baseurl:          https://joelmeyers.github.io
+baseurl:          https://joelmeyers.github.io/
 
 author:
   name:           'Joel Meyers'
