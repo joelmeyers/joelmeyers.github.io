@@ -1,7 +1,10 @@
 ---
 layout: default
+published: true
 ---
 
-## A New Post
+## Home
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+![joel-grey.jpg]({{site.baseurl}}/joel-grey.jpg)
+
+I am a senior research associate at the Canadian Institute for Theoretical Astrophysics in Toronto, Ontario, Canada.
