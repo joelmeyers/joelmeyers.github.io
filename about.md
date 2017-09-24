@@ -8,3 +8,5 @@ I am currently a seinor research associate at the Canadian Institute for Theoret
 <p align="center">
   <img src="{{site.baseurl}}/joel-weinberg.jpg" alt="Joel Meyers with Steven Weinberg"/>
 </p>
+
+![temp]({{site.baseurl}}//joel-weinberg.jpg)
