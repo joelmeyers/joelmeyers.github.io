@@ -8,8 +8,8 @@ markdown:         kramdown
 
 # Setup
 title:            Joel Meyers
-tagline:          'Cosmologist'
-description:      'Senior Research Associate'
+#tagline:          'Cosmologist'
+description:      'Cosmologist'
 #url:              https://joelmeyers.github.io
 baseurl:          https://joelmeyers.github.io/
 
