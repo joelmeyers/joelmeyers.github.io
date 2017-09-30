@@ -8,3 +8,11 @@ published: true
 </p>
 
 I am a senior research associate at the Canadian Institute for Theoretical Astrophysics in Toronto, Ontario, Canada.  My research focuses primarily on theoretical cosmology.  See my [research page]({{site.base-url}}/research "Research") for more detail.
+
+## Contact info
+
+jmeyers [at] cita [dot] utoronto [dot] ca
+
+Canadian Institute for Theoretical Astrophysics
+60 St. George Street, MP1401
+Toronto, ON M5S 3H8
