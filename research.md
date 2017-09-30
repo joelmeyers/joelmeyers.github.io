@@ -10,7 +10,7 @@ You can see my publications on [inSpire](http://inspirehep.net/search?p=exactaut
 
 ## Cosmic Microwave Background
 
-<p align="center">
+<p align="left">
   <img src="{{site.baseurl}}/public/CMB_banner.jpg" alt="CMB"/>
 </p>
 
@@ -18,7 +18,7 @@ Since the discovery of the cosmic microwave background (CMB) in 1964, measuremen
 
 ## Light Relics
 
-<p align="center">
+<p align="left">
   <img src="{{site.baseurl}}/public/Light_relics_banner.jpg" alt="Light Relics"/>
 </p>
 
@@ -26,7 +26,7 @@ One of the key observational targets of the next generation of cosmological surv
 
 ## Inflation
 
-<p align="center">
+<p align="left">
   <img src="{{site.baseurl}}/public/Inflation_banner.jpg" alt="Inflation"/>
 </p>
 
