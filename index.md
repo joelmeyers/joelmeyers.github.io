@@ -13,6 +13,6 @@ I am a senior research associate at the Canadian Institute for Theoretical Astro
 
 jmeyers [at] cita [dot] utoronto [dot] ca
 
-Canadian Institute for Theoretical Astrophysics
-60 St. George Street, MP1401
+Canadian Institute for Theoretical Astrophysics  
+60 St. George Street, MP1401  
 Toronto, ON M5S 3H8
