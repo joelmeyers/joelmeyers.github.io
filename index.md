@@ -13,7 +13,7 @@ I am an assistant professor at Southern Methodist University in Dallas, TX.  My 
 
 jrmeyers [at] smu [dot] edu
 
-Department of Physics
-Southern Methodist University
-3215 Daniel Ave. Rm 102
-Dallas, TX 75205-1437
+Department of Physics  
+Southern Methodist University  
+3215 Daniel Ave. Rm 102  
+Dallas, TX 75205-1437  
