@@ -16,7 +16,7 @@ You can see my publications on [inSpire](http://inspirehep.net/search?p=exactaut
   <img src="{{site.baseurl}}/public/CMB_banner.jpg" alt="CMB"/>
 </p>
 
-Since the discovery of the cosmic microwave background (CMB) in 1964, measurements of the CMB have completely transformed our understanding of the history and contents of the universe.  Ongoing and future observations of the CMB will continue to play a primary role in the development of modern cosmology.  I am a member of the [Simons Observatory](https://simonsobservatory.org/ "SO Website") and [CMB-S4](https://cmb-s4.org/ "S4 Website") collaborations, two future ground-based CMB experiments which will survey the CMB with unprecedented sensitivity.
+Since the discovery of the cosmic microwave background (CMB) in 1964, measurements of the CMB have completely transformed our understanding of the history and contents of the universe.  Ongoing and future observations of the CMB will continue to play a primary role in the development of modern cosmology.  I am a member of the [Simons Observatory](https://simonsobservatory.org/ "SO Website"), [CCAT-Prime](http://www.ccatobservatory.org/ "CCAT-Prime Website"), and [CMB-S4](https://cmb-s4.org/ "S4 Website") collaborations, three future ground-based experiments, and the [PICO](https://sites.google.com/umn.edu/picomission/home "PICO Website") collaboration, a proposed CMB satellite mission, which will survey the CMB with unprecedented sensitivity.
 
 
 
