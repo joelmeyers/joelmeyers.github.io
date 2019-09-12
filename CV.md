@@ -3,7 +3,7 @@ layout: page
 title: CV
 published: true
 ---
-[CV]({{ site.baseurl }}/public/cv.pdf "Curriculum Vitae") (Updated April 5, 2019)
+[CV]({{ site.baseurl }}/public/cv.pdf "Curriculum Vitae") (Updated September 11, 2019)
 
 ## Publications
 
