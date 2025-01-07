@@ -3,7 +3,7 @@ layout: page
 title: CV
 published: true
 ---
-[CV]({{ site.baseurl }}/public/cv.pdf "Curriculum Vitae") (Updated March 4, 2024)
+[CV]({{ site.baseurl }}/public/cv.pdf "Curriculum Vitae") (Updated January 7, 2025)
 
 ## Publications
 
@@ -11,4 +11,4 @@ published: true
 
 ## Academic History
 
-I am currently an assistant professor at Southern Methodist University.  Previously, I was a seinor research associate at the Canadian Institute for Theoretical Astrophysics (CITA).  Before joining CITA, I was a Ph.D. student at the University of Texas at Austin with Professor Steven Weinberg.  I received my bachelor's degree in physics and mathematics from the University of Wisconsin.
+I am currently an associate professor at Southern Methodist University.  Previously, I was a seinor research associate at the Canadian Institute for Theoretical Astrophysics (CITA).  Before joining CITA, I was a Ph.D. student at the University of Texas at Austin with Professor Steven Weinberg.  I received my bachelor's degree in physics and mathematics from the University of Wisconsin.
