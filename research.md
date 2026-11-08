@@ -29,7 +29,21 @@ Neutrinos have mass, and massive neutrinos change both the expansion history of 
   <li>P. W. Graham, D. Green, and J. Meyers, <a href="https://arxiv.org/abs/2508.20999">New interpretations of the cosmological preference for a negative neutrino mass</a>, Phys. Rev. D 113 (2026) 043514</li>
 </ul>
 
-{% comment %} Next: Light Relics and Dark Sector Physics; then Enhancing the Value of CMB Surveys; then Gravitational Waves Across Frequencies. {% endcomment %}
+### Light Relics and Dark Sector Physics
+
+<figure class="research-fig">
+  <img src="{{ '/public/figures/neff_damping_phase.png' | relative_url }}" alt="CMB temperature power spectrum for different amounts of radiation: more radiation damps the small-scale peaks and, with the damping matched, shifts the peaks to larger angular scales">
+</figure>
+
+Light relics are light particles that were produced abundantly in the hot early universe, like the three species of neutrinos of the Standard Model. The neutrinos fell out of equilibrium about one second after the Big Bang, but they remain extremely numerous today, making up the cosmic neutrino background. The gravitational influence of light relics leaves observable signatures in the cosmic microwave background and large-scale structure, so measuring their density probes neutrino physics and very weakly interacting particles beyond the Standard Model. I showed that free-streaming radiation shifts the phase of the acoustic peaks in the CMB, a robust signature that has since been measured in CMB and DESI BAO data. I have also studied how comparing the light relic density measured in the CMB with the abundances of light elements produced in big bang nucleosynthesis tests new physics in the early universe. Simons Observatory will substantially improve these measurements, sharpening tests of dark sector physics and of whether light relics play a role in the preference for negative neutrino mass.
+
+<ul class="papers sans">
+  <li>D. Baumann, D. Green, J. Meyers, and B. Wallisch, <a href="https://arxiv.org/abs/1508.06342">Phases of New Physics in the CMB</a>, JCAP 01 (2016) 007</li>
+  <li>D. Green et al., <a href="https://arxiv.org/abs/1903.04763">Messengers from the Early Universe: Cosmic Neutrinos and Other Light Relics</a>, Bull. Am. Astron. Soc. 51 (2019) 159</li>
+  <li>E. Grohs, J. R. Bond, R. J. Cooke, G. M. Fuller, J. Meyers, and M. W. Paris, <a href="https://arxiv.org/abs/1903.09187">Big Bang Nucleosynthesis and Neutrino Cosmology</a>, Bull. Am. Astron. Soc. 51 (2019) 412</li>
+</ul>
+
+{% comment %} Figure: simplified web version of Fig. 3 of the CnuB review (cosmo-explorations/web/web_neff_damping_phase.py). Derived from a review figure: do not push before the review is on arXiv. Next: Enhancing the Value of CMB Surveys; then Gravitational Waves Across Frequencies. {% endcomment %}
 
 ## Collaborations
 
