@@ -1,26 +1,14 @@
-# Dependencies
-markdown:         kramdown
-#highlighter:      pygments
+# Site settings
+title:       Joel Meyers
+role:        Associate Professor of Physics, Southern Methodist University
+description: Joel Meyers, theoretical cosmologist, Southern Methodist University
+url:         https://joelmeyers.github.io
+baseurl:     ""
 
-# Permalinks
-#permalink:        pretty
-#relative_permalinks: true
+markdown:    kramdown
 
-# Setup
-title:            Joel Meyers
-#tagline:          'Cosmologist'
-description:      'Cosmologist'
-#url:              https://joelmeyers.github.io
-baseurl:          https://joelmeyers.github.io/
+# Contact (shown in the footer of every page)
+address:     Department of Physics, Southern Methodist University, 3215 Daniel Ave. Rm 102, Dallas, TX 75205-1437
+email_text:  jrmeyers [at] smu [dot] edu
 
-author:
-  name:           'Joel Meyers'
-  #url:            https://twitter.com/mdo
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-#github:
-#  repo:           https://github.com/poole/hyde
+exclude:     [README.md]

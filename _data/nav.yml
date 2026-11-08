@@ -1,0 +1,9 @@
+# Top navigation, in order
+- title: Home
+  url: /
+- title: Research
+  url: /research.html
+- title: Group
+  url: /group.html
+- title: CV
+  url: /CV.html

@@ -1,15 +1,38 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-  {% include head.html %}
-
-  <body class="theme-base-08">
-
-    {% include sidebar.html %}
-
-    <div class="content container">
-      {{ content }}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500&display=swap">
+  <link rel="stylesheet" href="{{ '/public/css/site.css' | relative_url }}">
+  <link rel="icon" href="{{ '/public/favicon.ico' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/public/apple-touch-icon-144-precomposed.png' | relative_url }}">
+</head>
+<body>
+<div class="wrap">
+  <header class="site-header{% if page.home %} is-home{% endif %}">
+    {% if page.home %}<img class="portrait" src="{{ '/public/joel-grey.jpg' | relative_url }}" alt="Joel Meyers">{% endif %}
+    <div>
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <div class="role">{{ site.role }}</div>
     </div>
+  </header>
 
-  </body>
+  <nav class="site-nav sans">
+    {% for item in site.data.nav %}<a href="{{ item.url | relative_url }}"{% if page.url == item.url or page.url == item.url | remove: '.html' %} class="active"{% endif %}>{{ item.title }}</a>{% endfor %}
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer id="contact" class="site-footer sans">
+    {{ site.address }} · {{ site.email_text }}
+  </footer>
+</div>
+</body>
 </html>
