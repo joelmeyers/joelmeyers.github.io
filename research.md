@@ -16,7 +16,7 @@ You can see my publications on [INSPIRE](https://inspirehep.net/authors/1041642 
   <img src="{{site.baseurl}}/public/CMB_banner.jpg" alt="CMB"/>
 </p>
 
-Since the discovery of the cosmic microwave background (CMB) in 1964, measurements of the CMB have completely transformed our understanding of the history and contents of the universe.  Ongoing and future observations of the CMB will continue to play a primary role in the development of modern cosmology.  I am a member of the [Simons Observatory](https://simonsobservatory.org/ "SO Website") and [CCAT-prime](https://www.ccatobservatory.org/ "CCAT Website") collaborations, two ground-based CMB experiments, and the [PICO](https://sites.google.com/umn.edu/picomission/home "PICO Website") collaboration, a proposed CMB satellite mission.  I was a member of [CMB-S4](https://cmb-s4.org/ "S4 Website") from 2015 until the collaboration wound down, serving as Co-Chair of its Science Council from 2020 to 2024.
+Since the discovery of the cosmic microwave background (CMB) in 1964, measurements of the CMB have completely transformed our understanding of the history and contents of the universe.  Ongoing and future observations of the CMB will continue to play a primary role in the development of modern cosmology.  I am a member of the [Simons Observatory](https://simonsobservatory.org/ "SO Website"), [CCAT-prime](https://www.ccatobservatory.org/ "CCAT Website"), [CMB-HD](https://cmb-hd.org/ "CMB-HD Website"), and [PICO](https://sites.google.com/umn.edu/picomission/home "PICO Website") collaborations.  I was a member of [CMB-S4](https://cmb-s4.org/ "S4 Website") from 2015 until the collaboration wound down, serving as Co-Chair of its Science Council from 2020 to 2024.
 
 
 
