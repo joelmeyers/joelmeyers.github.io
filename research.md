@@ -103,7 +103,26 @@ Machine learning offers ways to extract information from CMB maps that standard 
   <li>E. Guzman and J. Meyers, <a href="https://arxiv.org/abs/2512.19577">Deep learning for primordial B-mode extraction</a>, Phys. Rev. D 113 (2026) 063573</li>
 </ul>
 
-{% comment %} Figure: Fig. 1 of Guzman & Meyers 2022 (arXiv:2109.09715, ResUNet_CMB_4output_arch.pdf), rendered from the arXiv source; the ResUNet-CMB repo has only a PNG (the diagram was made with PlotNeuralNet). Next: Gravitational Waves Across Frequencies. {% endcomment %}
+{% comment %} Figure: Fig. 1 of Guzman & Meyers 2022 (arXiv:2109.09715, ResUNet_CMB_4output_arch.pdf), rendered from the arXiv source; the ResUNet-CMB repo has only a PNG (the diagram was made with PlotNeuralNet). {% endcomment %}
+
+## Gravitational Waves Across Frequencies
+
+<figure class="research-fig wide">
+  <img src="{{ '/public/figures/gw_landscape.png' | relative_url }}" alt="The gravitational-wave landscape from 10^-19 to 10^4 hertz: the spectrum of gravitational waves from inflation at today's bound, the signal seen by pulsar timing arrays, the LIGO-Virgo-KAGRA limit and the planned LISA sensitivity, and the frequency ranges covered by CMB B modes, pulsar timing arrays, CMB time-dependent deflection, a gravitational-wave timing array, LISA, and LIGO-Virgo-KAGRA">
+</figure>
+
+Gravitational waves offer a window onto fundamental physics across an enormous range of frequencies. At the lowest frequencies, gravitational waves produced during cosmic inflation would leave a distinctive pattern of B-mode polarization in the CMB. Detecting it would reveal the energy scale of inflation, but the signal is faint and lies beneath the B modes produced by gravitational lensing, which makes delensing essential. B-mode measurements from Simons Observatory, together with constraints on primordial non-Gaussianity, will sharpen tests of the physics that drove inflation.
+
+At nanohertz frequencies, pulsar timing arrays have found evidence for a background of gravitational waves. Supermassive black hole binaries are the expected source, but the signal could also come from the early universe: for example, gravitational waves from inflation, amplified by a period of kination in which the expansion was dominated by the kinetic energy of a scalar field, can also fit current data. Gravitational waves can also be found in data collected for other purposes. A gravitational wave passing the Earth shifts the apparent positions of distant sources in a correlated, time-dependent pattern, and time-dependent deflection reconstruction searches for this pattern in CMB maps, extending sensitivity to frequencies both below and above those covered by pulsar timing arrays. Precise timing of strongly lensed repeating fast radio bursts, or of the continuous gravitational waves from Galactic binaries seen by a space-based detector like LISA, can likewise reveal long-wavelength gravitational waves.
+
+<ul class="papers sans">
+  <li>N. Pearson, C. Trendafilova, and J. Meyers, <a href="https://arxiv.org/abs/2009.11252">Searching for Gravitational Waves with Strongly Lensed Repeating Fast Radio Bursts</a>, Phys. Rev. D 103 (2021) 063017</li>
+  <li>M. J. Bustamante-Rosell, J. Meyers, N. Pearson, C. Trendafilova, and A. Zimmerman, <a href="https://arxiv.org/abs/2107.02788">Gravitational wave timing array</a>, Phys. Rev. D 105 (2022) 044005</li>
+  <li>B. Li, J. Meyers, and P. R. Shapiro, <a href="https://arxiv.org/abs/2503.18937">Multimodality in the Search for New Physics in Pulsar Timing Data and the Case of Kination-amplified Gravitational-wave Background from Inflation</a>, Astrophys. J. 985 (2025) 117</li>
+  <li>A. Leluc, J. Meyers, and A. van Engelen, <a href="https://arxiv.org/abs/2508.10673">Time-dependent deflection reconstruction: new technique to search for gravitational waves with the cosmic microwave background</a>, JCAP 01 (2026) 053</li>
+</ul>
+
+{% comment %} Figure: cosmo-explorations/web/web_gw_landscape.py (sources in its docstring). {% endcomment %}
 
 ## Collaborations
 
