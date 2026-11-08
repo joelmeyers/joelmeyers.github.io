@@ -64,7 +64,46 @@ Gravitational lensing by the large-scale structure between us and the surface of
   <li>C. Trendafilova, S. C. Hotinli, and J. Meyers, <a href="https://arxiv.org/abs/2312.02954">Improving constraints on inflation with CMB delensing</a>, JCAP 06 (2024) 017</li>
 </ul>
 
-{% comment %} Animation: cosmo-explorations/web/web_lensing.py (--field TEB). Next: New Probes of Cosmic Structure (moving lens, SCALE, Rayleigh scattering); then Gravitational Waves Across Frequencies. {% endcomment %}
+{% comment %} Animation: cosmo-explorations/web/web_lensing.py (--field TEB). {% endcomment %}
+
+### New Probes of Cosmic Structure
+
+<figure class="research-fig wide">
+  <img src="{{ '/public/figures/moving_lens.png' | relative_url }}" alt="Illustration of the moving lens effect: several galaxy clusters moving across the sky in different directions, each leaving a temperature dipole, cooler ahead of the cluster and hotter behind">
+</figure>
+
+Lensing is also challenging to measure on the smallest angular scales: at multipoles above a few thousand, standard lensing reconstruction methods become suboptimal for low-noise surveys. The Small Correlated Against Large Estimator (SCALE) instead measures how lensing ties the local small-scale power of the CMB temperature to the large-scale temperature gradient. For upcoming surveys, SCALE can outperform standard methods, and the small-scale lensing amplitude it measures is sensitive to neutrino mass and to models such as warm or fuzzy dark matter that suppress structure on small scales.
+
+The CMB also carries other imprints of the structure it passes on its way to us. When a massive structure such as a galaxy cluster moves across our line of sight, its lensing of the CMB leaves a small temperature dipole aligned with its motion: cooler ahead of the cluster and hotter behind. Combined with galaxy surveys, this moving lens effect gives access to the transverse velocities of cosmological structures, and together with the kinetic Sunyaev-Zel'dovich effect it could map the three-dimensional velocity field of the universe. The moving lens effect has now been [detected for the first time](https://arxiv.org/abs/2605.18938), at 4.8σ, in ACT and DESI Legacy Surveys data.
+
+Just after recombination, CMB photons also scatter off newly formed neutral hydrogen and helium. This Rayleigh scattering grows steeply with frequency (as ν<sup>4</sup>), giving a second, partly independent view of the last-scattering surface that can significantly improve constraints on light relics and the sum of neutrino masses. Atmospheric effects and astrophysical foregrounds make it hard to detect with experiments planned for this decade, but a future CMB satellite should be able to measure it with high significance.
+
+<ul class="papers sans">
+  <li>V. C. Chan, R. Hložek, J. Meyers, and A. van Engelen, <a href="https://arxiv.org/abs/2302.13350">Small Correlated Against Large Estimator (SCALE) for Cosmic Microwave Background Lensing</a>, Phys. Rev. D 109 (2024) 043527</li>
+  <li>V. C. Chan, R. Hložek, J. Meyers, and A. van Engelen, <a href="https://arxiv.org/abs/2409.05326">Running the small-correlated-against-large estimator at scale</a>, Phys. Rev. D 113 (2026) 023535</li>
+  <li>S. C. Hotinli, J. Meyers, N. Dalal, A. H. Jaffe, M. C. Johnson, J. B. Mertens, M. Münchmeyer, K. M. Smith, and A. van Engelen, <a href="https://arxiv.org/abs/1812.03167">Transverse Velocities with the Moving Lens Effect</a>, Phys. Rev. Lett. 123 (2019) 061301</li>
+  <li>S. C. Hotinli, M. C. Johnson, and J. Meyers, <a href="https://arxiv.org/abs/2006.03060">Optimal filters for the moving lens effect</a>, Phys. Rev. D 103 (2021) 043536</li>
+  <li>B. Beringue, P. D. Meerburg, J. Meyers, and N. Battaglia, <a href="https://arxiv.org/abs/2008.11688">Cosmology with Rayleigh Scattering of the Cosmic Microwave Background</a>, JCAP 01 (2021) 060</li>
+  <li>Y. Zhu, B. Beringue, S. K. Choi, N. Battaglia, P. D. Meerburg, and J. Meyers, <a href="https://arxiv.org/abs/2205.04496">Estimating the impact of foregrounds on the future detection of Rayleigh scattering</a>, JCAP 09 (2022) 048</li>
+</ul>
+
+{% comment %} Figure: cosmo-explorations/web/web_moving_lens.py --field (illustrative; high-pass filtered). {% endcomment %}
+
+### Machine Learning Tools
+
+<figure class="research-fig wide">
+  <img src="{{ '/public/figures/resunet_cmb_architecture.png' | relative_url }}" alt="Architecture of the ResUNet-CMB network: maps of CMB polarization (Q and U) pass through convolutional and residual blocks, and the network outputs maps of cosmic polarization rotation and lensing convergence, among others">
+</figure>
+
+Machine learning offers ways to extract information from CMB maps that standard estimators leave behind. [ResUNet-CMB](https://github.com/EEmGuzman/resunet-cmb), a convolutional neural network, takes maps of CMB polarization and simultaneously reconstructs gravitational lensing, patchy reionization, and cosmic polarization rotation, along with the primary CMB fluctuations. It outperforms the standard quadratic estimator and matches the performance expected from iterative reconstruction methods. Applied to the search for primordial gravitational waves, the same network can estimate and remove several sources of secondary B-mode polarization at once, and its output can be used in a likelihood analysis to produce nearly optimal, unbiased estimates of the amplitude of primordial gravitational waves.
+
+<ul class="papers sans">
+  <li>E. Guzman and J. Meyers, <a href="https://arxiv.org/abs/2101.01214">Reconstructing patchy reionization with deep learning</a>, Phys. Rev. D 104 (2021) 043529</li>
+  <li>E. Guzman and J. Meyers, <a href="https://arxiv.org/abs/2109.09715">Reconstructing cosmic polarization rotation with ResUNet-CMB</a>, JCAP 01 (2022) 030</li>
+  <li>E. Guzman and J. Meyers, <a href="https://arxiv.org/abs/2512.19577">Deep learning for primordial B-mode extraction</a>, Phys. Rev. D 113 (2026) 063573</li>
+</ul>
+
+{% comment %} Figure: Fig. 1 of Guzman & Meyers 2022 (arXiv:2109.09715, ResUNet_CMB_4output_arch.pdf), rendered from the arXiv source; the ResUNet-CMB repo has only a PNG (the diagram was made with PlotNeuralNet). Next: Gravitational Waves Across Frequencies. {% endcomment %}
 
 ## Collaborations
 
