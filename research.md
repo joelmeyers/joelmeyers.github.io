@@ -43,7 +43,7 @@ Light relics are light particles that were produced abundantly in the hot early 
   <li>E. Grohs, J. R. Bond, R. J. Cooke, G. M. Fuller, J. Meyers, and M. W. Paris, <a href="https://arxiv.org/abs/1903.09187">Big Bang Nucleosynthesis and Neutrino Cosmology</a>, Bull. Am. Astron. Soc. 51 (2019) 412</li>
 </ul>
 
-{% comment %} Figure: simplified web version of Fig. 3 of the CnuB review (cosmo-explorations/web/web_neff_damping_phase.py). Derived from a review figure: do not push before the review is on arXiv. Next: Enhancing the Value of CMB Surveys; then Gravitational Waves Across Frequencies. {% endcomment %}
+{% comment %} Figure: simplified web version of Fig. 3 of the CnuB review (cosmo-explorations/web/web_neff_damping_phase.py). Cleared for the live site by the author (2026-11-08), though derived from a review figure. Next: Enhancing the Value of CMB Surveys; then Gravitational Waves Across Frequencies. {% endcomment %}
 
 ## Collaborations
 
