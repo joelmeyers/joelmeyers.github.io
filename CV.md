@@ -3,11 +3,11 @@ layout: page
 title: CV
 published: true
 ---
-[CV]({{ site.baseurl }}/public/cv.pdf "Curriculum Vitae") (Updated January 22, 2025)
+[CV]({{ site.baseurl }}/public/cv.pdf "Curriculum Vitae") (Updated November 8, 2026)
 
 ## Publications
 
-[inSpire](http://inspirehep.net/search?p=exactauthor%3AJoel.Meyers.1 "inSpire Publication List")
+[INSPIRE](https://inspirehep.net/authors/1041642 "INSPIRE Publication List")
 
 ## Academic History
 
