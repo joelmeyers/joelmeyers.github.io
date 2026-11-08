@@ -54,6 +54,8 @@ h3 { font-size: 22px; font-weight: 600; margin: 28px 0 6px; }
 
 /* Research page */
 .research-fig { margin: 8px auto 18px; max-width: 520px; text-align: center; }
+.research-fig.wide { max-width: 680px; }
+.research-fig video { width: 100%; height: auto; display: block; }
 .research-fig figcaption { font-size: 15px; color: var(--muted); margin-top: 6px; text-align: left; }
 .papers { list-style: none; padding: 0; margin: 14px 0 0; color: #4a4642; }
 .papers li { margin-bottom: 6px; padding-left: 1.2rem; text-indent: -1.2rem; }

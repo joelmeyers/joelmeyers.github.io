@@ -43,7 +43,28 @@ Light relics are light particles that were produced abundantly in the hot early 
   <li>E. Grohs, J. R. Bond, R. J. Cooke, G. M. Fuller, J. Meyers, and M. W. Paris, <a href="https://arxiv.org/abs/1903.09187">Big Bang Nucleosynthesis and Neutrino Cosmology</a>, Bull. Am. Astron. Soc. 51 (2019) 412</li>
 </ul>
 
-{% comment %} Figure: simplified web version of Fig. 3 of the CnuB review (cosmo-explorations/web/web_neff_damping_phase.py). Cleared for the live site by the author (2026-11-08), though derived from a review figure. Next: Enhancing the Value of CMB Surveys; then Gravitational Waves Across Frequencies. {% endcomment %}
+{% comment %} Figure: simplified web version of Fig. 3 of the CnuB review (cosmo-explorations/web/web_neff_damping_phase.py). Cleared for the live site by the author (2026-11-08), though derived from a review figure. {% endcomment %}
+
+## Enhancing the Value of CMB Surveys
+
+### CMB Delensing
+
+<figure class="research-fig wide">
+  <video autoplay loop muted playsinline poster="{{ '/public/figures/lensing_teb_poster.jpg' | relative_url }}" aria-label="A simulated patch of the CMB in temperature, E-mode and B-mode polarization, with gravitational lensing turned slowly off and on">
+    <source src="{{ '/public/figures/lensing_teb.mp4' | relative_url }}" type="video/mp4">
+  </video>
+</figure>
+
+Gravitational lensing by the large-scale structure between us and the surface of last scattering distorts our view of the primary CMB fluctuations. Lensing smooths the acoustic peaks, converts E-mode polarization into B modes, and introduces correlations between scales, all of which weaken constraints on the parameters best measured through the primary CMB. Delensing reverses these effects: the lensing deflection is reconstructed from the CMB maps themselves, or traced with other observations of large-scale structure, and its effects are then removed. Removing lensing B modes is essential in the search for primordial gravitational waves, and delensing the temperature and E-mode polarization sharpens measurements of light relics, of inflation, and of models proposed to resolve the Hubble tension. Because delensing uses the same data a survey collects anyway, it comes at no additional experimental cost; in some cases, the improvement is comparable to halving the noise level of the experiment. Delensing of temperature and E modes has now been carried out on real data by ACT and SPT-3G.
+
+<ul class="papers sans">
+  <li>D. Green, J. Meyers, and A. van Engelen, <a href="https://arxiv.org/abs/1609.08143">CMB Delensing Beyond the B Modes</a>, JCAP 12 (2017) 005</li>
+  <li>S. C. Hotinli, J. Meyers, C. Trendafilova, D. Green, and A. van Engelen, <a href="https://arxiv.org/abs/2111.15036">The benefits of CMB delensing</a>, JCAP 04 (2022) 020</li>
+  <li>J. Ange and J. Meyers, <a href="https://arxiv.org/abs/2307.01662">Improving constraints on models addressing the Hubble tension with CMB delensing</a>, JCAP 10 (2023) 045</li>
+  <li>C. Trendafilova, S. C. Hotinli, and J. Meyers, <a href="https://arxiv.org/abs/2312.02954">Improving constraints on inflation with CMB delensing</a>, JCAP 06 (2024) 017</li>
+</ul>
+
+{% comment %} Animation: cosmo-explorations/web/web_lensing.py (--field TEB). Next: New Probes of Cosmic Structure (moving lens, SCALE, Rayleigh scattering); then Gravitational Waves Across Frequencies. {% endcomment %}
 
 ## Collaborations
 
