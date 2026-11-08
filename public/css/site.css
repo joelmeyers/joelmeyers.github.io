@@ -52,6 +52,12 @@ h3 { font-size: 22px; font-weight: 600; margin: 28px 0 6px; }
 .theme h3 { margin-top: 0; }
 .theme p { margin: 0; color: #4a4642; }
 
+/* Research page */
+.research-fig { margin: 8px auto 18px; max-width: 520px; text-align: center; }
+.research-fig figcaption { font-size: 15px; color: var(--muted); margin-top: 6px; text-align: left; }
+.papers { list-style: none; padding: 0; margin: 14px 0 0; color: #4a4642; }
+.papers li { margin-bottom: 6px; padding-left: 1.2rem; text-indent: -1.2rem; }
+
 /* Group page */
 .people { list-style: none; padding-left: 0; margin: 0; }
 .person { margin-bottom: 14px; }
