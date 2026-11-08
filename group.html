@@ -1,0 +1,29 @@
+---
+layout: page
+title: Group
+published: true
+---
+
+{% comment %}
+  The entries come from _data/group.yml (kept consistent with the CV). This page only lays them out.
+{% endcomment %}
+
+<div class="group">
+
+<h2>Current members</h2>
+{% for section in site.data.group.current %}
+<h3>{{ section.heading }}</h3>
+<ul class="people">
+{% for p in section.people %}{% include group_person.html p=p %}{% endfor %}
+</ul>
+{% endfor %}
+
+<h2>Former members</h2>
+{% for section in site.data.group.alumni %}
+<h3>{{ section.heading }}</h3>
+<ul class="people">
+{% for p in section.people %}{% include group_person.html p=p %}{% endfor %}
+</ul>
+{% endfor %}
+
+</div>

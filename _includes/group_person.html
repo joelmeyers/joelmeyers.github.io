@@ -1,0 +1,19 @@
+{% assign p = include.p %}
+<li class="person">
+  <span class="person-name">{{ p.name }}</span>{% if p.role %}, {{ p.role }}{% endif %}{% if p.where %}, {{ p.where }}{% endif %}{% if p.years %} <span class="person-years">({{ p.years }})</span>{% endif %}
+  {% if p.notes or p.next or p.current %}
+  <ul class="person-details">
+    {% for n in p.notes %}<li>{{ n }}</li>{% endfor %}
+    {% if p.next %}<li>Next: {{ p.next }}</li>{% endif %}
+    {% if p.current %}<li>Now: {{ p.current }}</li>{% endif %}
+  </ul>
+  {% endif %}
+  {% if p.links %}
+  <span class="person-links">
+    {% if p.links.website %}<a href="{{ p.links.website }}">Website</a>{% endif %}
+    {% if p.links.orcid %}<a href="https://orcid.org/{{ p.links.orcid }}">ORCID</a>{% endif %}
+    {% if p.links.inspire %}<a href="https://inspirehep.net/authors/{{ p.links.inspire }}">INSPIRE</a>{% endif %}
+    {% if p.links.linkedin %}<a href="https://www.linkedin.com/in/{{ p.links.linkedin }}">LinkedIn</a>{% endif %}
+  </span>
+  {% endif %}
+</li>

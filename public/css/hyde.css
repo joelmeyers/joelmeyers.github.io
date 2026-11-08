@@ -248,3 +248,14 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* Group page */
+.group h3 { margin-top: 1.5rem; }
+.people { list-style: none; padding-left: 0; }
+.person { margin-bottom: .75rem; }
+.person-name { font-weight: bold; }
+.person-years { color: #9a9a9a; }
+.person-details { margin: .1rem 0 .1rem 1.25rem; padding-left: 0; font-size: .9em; }
+.person-details li { margin: 0; }
+.person-links { font-size: .85em; margin-left: 1.25rem; }
+.person-links a { margin-right: .75rem; }
