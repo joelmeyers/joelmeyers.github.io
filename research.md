@@ -35,9 +35,17 @@ Neutrinos have mass, and massive neutrinos change both the expansion history of 
 
 ### Light Relics and Dark Sector Physics
 
+<figure class="research-fig wide">
+  <video class="anim" loop muted playsinline preload="none" poster="{{ '/public/figures/thermal_relics_poster.jpg' | relative_url }}" aria-label="Extra radiation from a light particle that was once in thermal equilibrium, against the temperature at which it decoupled, for spin 0, one half and 1: a cursor sweeps the temperature, and the earlier the particle decoupled, the smaller its contribution, down to 0.027 to 0.054, compared with the sensitivity of current and future CMB surveys">
+    <source src="{{ '/public/figures/thermal_relics.mp4' | relative_url }}" type="video/mp4">
+  </video>
+</figure>
+{% comment %} Animation: cosmo-explorations/web/web_thermal_relics.py --animate (author, 2026-11-09: swap it for the damping/phase-shift still).
+CUT (still, replaced 2026-11-09):
 <figure class="research-fig">
   <img src="{{ '/public/figures/neff_damping_phase.png' | relative_url }}" alt="CMB temperature power spectrum for different amounts of radiation: more radiation damps the small-scale peaks and, with the damping matched, shifts the peaks to larger angular scales">
 </figure>
+{% endcomment %}
 
 Light relics are light particles that were produced abundantly in the hot early universe, like the three species of neutrinos of the Standard Model. The neutrinos fell out of equilibrium about one second after the Big Bang, but they remain extremely numerous today, making up the cosmic neutrino background. The gravitational influence of light relics leaves observable signatures in the cosmic microwave background and large-scale structure, so measuring their density probes neutrino physics and very weakly interacting particles beyond the Standard Model. I showed that free-streaming radiation shifts the phase of the acoustic peaks in the CMB, a robust signature that has since been measured in CMB and DESI BAO data. I have also studied how comparing the light relic density measured in the CMB with the abundances of light elements produced in big bang nucleosynthesis tests new physics in the early universe. Simons Observatory will substantially improve these measurements, sharpening tests of dark sector physics and of whether light relics play a role in the preference for negative neutrino mass.
 
@@ -46,7 +54,7 @@ Light relics are light particles that were produced abundantly in the hot early 
     <source src="{{ '/public/figures/phase_shift.mp4' | relative_url }}" type="video/mp4">
   </video>
 </figure>
-{% comment %} Animation: cosmo-explorations/web/web_phase_shift.py (author, 2026-11-09: animations of related science are not held for the review). Placement after the text, with the still above, to be confirmed by the author. {% endcomment %}
+{% comment %} Animation: cosmo-explorations/web/web_phase_shift.py (author, 2026-11-09: animations of related science are not held for the review). After the text; the light-relic animation above (author, 2026-11-09). {% endcomment %}
 
 <ul class="papers sans">
   <li>D. Baumann, D. Green, J. Meyers, and B. Wallisch, <a href="https://arxiv.org/abs/1508.06342">Phases of New Physics in the CMB</a>, JCAP 01 (2016) 007</li>
@@ -131,7 +139,7 @@ At nanohertz frequencies, pulsar timing arrays have found evidence for a backgro
     <source src="{{ '/public/figures/gw_deflection.mp4' | relative_url }}" type="video/mp4">
   </video>
 </figure>
-{% comment %} Animation: cosmo-explorations/web/web_gw_deflection.py, our web-style version of Alvin Leluc's full-sky animations (author, 2026-11-09); re-encoded at CRF 32 for the site (0.9 MB). Placement after the text, the GW landscape above, to be confirmed by the author. {% endcomment %}
+{% comment %} Animation: cosmo-explorations/web/web_gw_deflection.py, our web-style version of Alvin Leluc's full-sky animations (author, 2026-11-09); re-encoded at CRF 32 for the site (0.9 MB). After the text, the GW landscape above (author liked it, 2026-11-09; source marker made quieter). {% endcomment %}
 
 <ul class="papers sans">
   <li>N. Pearson, C. Trendafilova, and J. Meyers, <a href="https://arxiv.org/abs/2009.11252">Searching for Gravitational Waves with Strongly Lensed Repeating Fast Radio Bursts</a>, Phys. Rev. D 103 (2021) 063017</li>
