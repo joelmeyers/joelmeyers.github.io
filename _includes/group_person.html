@@ -1,8 +1,10 @@
 {% assign p = include.p %}
 <li class="person">
   <span class="person-name">{{ p.name }}</span>{% if p.role %}, {{ p.role }}{% endif %}{% if p.where %}, {{ p.where }}{% endif %}{% if p.years %} <span class="person-years">({{ p.years }})</span>{% endif %}
-  {% if p.notes or p.next or p.current %}
+  {% if p.thesis or p.research or p.notes or p.next or p.current %}
   <ul class="person-details">
+    {% capture topic %}{% if p.thesis %}<em>{{ p.thesis }}</em>{% else %}{{ p.research }}{% endif %}{% endcapture %}
+    {% if p.thesis or p.research %}<li>{% if p.thesis %}Thesis{% else %}Research{% endif %}: {% if p.section %}<a href="{{ '/research.html#' | append: p.section | relative_url }}">{{ topic }}</a>{% else %}{{ topic }}{% endif %}</li>{% endif %}
     {% for n in p.notes %}<li>{{ n }}</li>{% endfor %}
     {% if p.next %}<li>Next: {{ p.next }}</li>{% endif %}
     {% if p.current %}<li>Now: {{ p.current }}</li>{% endif %}

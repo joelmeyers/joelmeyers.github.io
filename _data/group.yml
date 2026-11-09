@@ -3,7 +3,9 @@
 # "Graduate Students Supervised", "Undergraduate Students Supervised") and
 # application_materials/group_records.md for the links. Keep them consistent.
 #
-# Fields: name, role, where, years, notes (list: awards, programs), next, current,
+# Fields: name, role, where, years, thesis (Ph.D. students supervised at SMU: title) or research (topic,
+#         from their papers with the author or as he gave it), section (anchor on research.md to link to),
+#         notes (list: awards, programs), next, current,
 #         links: website, orcid (id), inspire (id), linkedin (path after linkedin.com/in/)
 # Leave unknown fields out; never guess.
 
@@ -12,8 +14,12 @@ current:
     people:
       - name: Joshua Perez
         years: 2024–present
+        research: "Primordial fluctuations and the cosmological preference for negative neutrino mass"
+        section: the-cosmological-preference-for-negative-neutrino-mass
       - name: Alvin Leluc
         years: 2023–present
+        research: "Searching for gravitational waves with time-dependent CMB lensing"
+        section: gravitational-waves-across-frequencies
         notes:
           - Texas Section APS award for outstanding graduate oral presentation, 2024
         links:
@@ -23,14 +29,18 @@ current:
     people:
       - name: Nikita Karthik
         years: 2026–present
+        research: "Cosmological redshift drift"
       - name: Aidan Premirelli
         years: 2026–present
+        research: "Cosmological redshift drift"
 
 alumni:
   - heading: Postdocs
     people:
       - name: Victor Chan
         years: 2024–2025
+        research: "Small-scale CMB lensing reconstruction (SCALE)"
+        section: new-probes-of-cosmic-structure
         notes:
           - Earlier a Ph.D. student at the University of Toronto, 2018–2023 (research supervised at CITA)
         current: Echologics, Toronto
@@ -39,12 +49,16 @@ alumni:
           inspire: 2636908
       - name: Joseph Ryan
         years: 2021–2024
+        research: "Cosmological forecasting and machine learning for primordial non-Gaussianity"
+        section: machine-learning-tools
         current: Instructor, University of South Carolina
         links:
           orcid: 0000-0002-1546-1577
           inspire: 1842318
       - name: Cynthia Trendafilova
         years: 2019–2022
+        research: "CMB delensing, light relics, and gravitational waves"
+        section: cmb-delensing
         next: CAPS Fellow, UIUC
         current: Postdoc, Case Western Reserve University
         links:
@@ -56,6 +70,8 @@ alumni:
       - name: Brandon Stevenson
         role: Ph.D., co-supervised
         years: 2020–2026
+        thesis: "Machine Learning in Fundamental Physics: From Early Universe Signatures to QCD Evolution"
+        section: machine-learning-tools
         current: Innovative Signal Analysis, Dallas
         links:
           inspire: 2053787
@@ -63,6 +79,8 @@ alumni:
       - name: Eric Guzman
         role: Ph.D.
         years: 2018–2023
+        thesis: "Deep Learning Applications for Secondary Cosmic Microwave Background Anisotropies"
+        section: machine-learning-tools
         notes:
           - SMU Computational Science and Engineering Fellowship
         next: AI Engineer, Honeywell
@@ -72,6 +90,8 @@ alumni:
       - name: Jasmine Liu
         role: Ph.D. student, co-supervised
         years: 2022–2024
+        thesis: "Constraints on Solar Axions Using the Profile Likelihood Ratio Method with the SuperCDMS Experiments"
+        section: neutrinos-and-the-dark-sector
         current: Goldman Sachs
         links:
           linkedin: jliusmu
@@ -95,6 +115,8 @@ alumni:
       - name: Alex Laguë
         where: University of Toronto
         years: 2018–2019
+        research: "Light relics and primordial light element abundances"
+        section: light-relics-and-dark-sector-physics
         current: Postdoc, University of Pennsylvania
         links:
           orcid: 0000-0003-4642-6720
@@ -102,6 +124,8 @@ alumni:
       - name: Selim Hotinli
         where: Imperial College London
         years: 2016–2020
+        research: "The moving lens effect, CMB delensing, and multi-field inflation"
+        section: new-probes-of-cosmic-structure
         current: Postdoc, Perimeter Institute
         links:
           orcid: 0000-0003-0061-8188
@@ -109,6 +133,8 @@ alumni:
       - name: Matthew Wilson
         where: University of Toronto
         years: 2016
+        research: "Cosmic neutrino decoupling"
+        section: light-relics-and-dark-sector-physics
         next: Ph.D., University of Toronto, 2022
         links:
           orcid: 0000-0002-6723-3795
@@ -116,12 +142,16 @@ alumni:
       - name: Derek Inman
         where: CITA
         years: 2013–2014
+        research: "Cosmological effects of neutrino mass"
+        section: neutrinos-and-the-dark-sector
         current: Postdoc, RIKEN
 
   - heading: Undergraduates, SMU
     people:
       - name: Christopher Cook
         years: 2024–2026
+        research: "Early dark energy, big bang nucleosynthesis, and neutrino mass"
+        section: the-cosmological-preference-for-negative-neutrino-mass
         notes:
           - Goldwater Scholar, 2025
         current: Ph.D. student (fellowship), UT Austin
@@ -130,6 +160,8 @@ alumni:
           inspire: 3093794
       - name: Joshua Ange
         years: 2022–2025
+        research: "CMB delensing and models addressing the Hubble tension"
+        section: cmb-delensing
         notes:
           - Goldwater Scholar, 2023
           - Churchill Scholar, 2025
@@ -141,6 +173,8 @@ alumni:
           inspire: 2153130
       - name: Noah Pearson
         years: 2019–2021
+        research: "Searching for gravitational waves with lensed fast radio bursts and timing arrays"
+        section: gravitational-waves-across-frequencies
         notes:
           - Robert S. Hyer Award, 2020
         current: Ph.D. student, Montana State University
@@ -151,26 +185,37 @@ alumni:
       - name: Keillian Davis
         role: First-Year Research Experience
         years: 2025–2026
+        research: "Variation of the fundamental constants"
       - name: Danna Alden
         role: First-Year Research Experience
         years: 2025–2026
+        research: "Variation of the fundamental constants"
 
   - heading: Undergraduates, CITA
     people:
       - name: Connor Sheere
         years: 2016–2018
+        research: "Establishing the origin of CMB B-mode polarization"
+        section: gravitational-waves-across-frequencies
         links:
           inspire: 2586024
           linkedin: connor-sheere-bb0290100
       - name: Brayden Mon
         years: 2017
+        research: "Secondary CMB anisotropies"
+        section: new-probes-of-cosmic-structure
       - name: Harrison Winch
         years: 2016
+        research: "Primordial gravitational waves"
+        section: gravitational-waves-across-frequencies
         links:
           linkedin: hwinch
       - name: Vivian Britto
         years: 2014
+        research: "Monthly modulation in dark matter direct detection"
+        section: neutrinos-and-the-dark-sector
         links:
           inspire: 2592475
       - name: Shenglin Jing
         years: 2012–2013
+        research: "Signatures of inflation"

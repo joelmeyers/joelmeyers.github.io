@@ -10,7 +10,9 @@ published: true
   banner images were removed, 2026-11-08) is kept in the comment at the bottom.
 {% endcomment %}
 
-I study theoretical cosmology, including the cosmic microwave background, the early universe, and connections to high energy and particle physics.
+My research is organized around three themes: neutrinos and the dark sector, enhancing the value of CMB surveys, and gravitational waves across frequencies. Much of this work uses the cosmic microwave background, either alone or in combination with other data sets including galaxy surveys, primordial light element abundances, and gravitational wave observations.
+
+{% comment %} Opening: option B (author, 2026-11-08); replaced "I study theoretical cosmology, including the cosmic microwave background, the early universe, and connections to high energy and particle physics." {% endcomment %}
 
 You can see my publications on [INSPIRE](https://inspirehep.net/authors/1041642 "INSPIRE Publication List").
 
