@@ -7,7 +7,8 @@ published: true
   Outreach page (author, 2026-11-08). Paragraph from the CV's Outreach section; list sources: Spotify
   (STEAMology episodes), LinkedIn posts by Research at SMU (dates from the post IDs), the Herd Here event
   page (details from the author), SMU News (webinar announcement: Thursday March 28 [2024], 12:15-1 pm;
-  "New physics needed? Maybe", 2024-09-19), Lifehacker (Stephen Johnson, 2026-01-16, also on Yahoo News). Photos of the eclipse event and the viewing nights to come from the author.
+  "New physics needed? Maybe", 2024-09-19), Lifehacker (Stephen Johnson, 2026-01-16, also on Yahoo News), Popular Mechanics (Jordan Smith,
+  2026-02-25; headline and date from the author, the site blocks automated access). Photos of the eclipse event and the viewing nights to come from the author.
 {% endcomment %}
 
 I was the lead organizer of SMU's viewing event for the April 2024 total solar eclipse, which drew thousands of spectators, with lead-up talks, demonstrations, and public engagement involving students and postdocs. The event grew into regular public astronomical viewing nights with the SMU Society of Physics Students, with telescopes operated by graduate students.
@@ -32,6 +33,7 @@ I was the lead organizer of SMU's viewing event for the April 2024 total solar e
 ## In the news
 
 <ul class="papers sans">
+  <li><a href="https://www.popularmechanics.com/science/environment/a70480321/conspiracy-earth-gravity/"><em>Earth’s Gravity Could Undergo a Bizarre Change, According to This Wild Theory</em></a>, Popular Mechanics, February 2026 (interview)</li>
   <li><a href="https://lifehacker.com/entertainment/what-people-are-getting-wrong-this-week-is-gravity-ending"><em>What People Are Getting Wrong This Week: Is Gravity Ending?</em></a>, Lifehacker, January 2026 (interview)</li>
   <li><a href="https://www.smu.edu/news/research/new-physics-needed"><em>New physics needed? Maybe</em></a>, SMU News, September 2024 (the cosmological preference for negative neutrino mass)</li>
 </ul>
