@@ -15,7 +15,13 @@ published: true
 
 I was the lead organizer of SMU's viewing event for the April 2024 total solar eclipse, which drew thousands of spectators, with lead-up talks, demonstrations, and public engagement involving students and postdocs. The event grew into regular public astronomical viewing nights with the SMU Society of Physics Students, with telescopes operated by graduate students.
 
-{% comment %} PHOTOS: 2-4 photos of the eclipse event and the viewing nights go here (author, to come). {% endcomment %}
+{% comment %} Photos from the author (application_materials/photos/, 2026-11-09), resized to 1400 px and metadata (incl. GPS) stripped. The composite is credited as on the image itself. {% endcomment %}
+<div class="photo-grid">
+  <figure><img loading="lazy" src="{{ '/public/photos/eclipse_totality_composite.jpg' | relative_url }}" alt="Composite of the April 2024 eclipse seen from SMU: the partial phases on either side of totality, with the solar corona"><figcaption class="sans">The eclipse from SMU, April 8, 2024 (composite: Guillermo G. Vasquez and Thomas E. Coan)</figcaption></figure>
+  <figure><img loading="lazy" src="{{ '/public/photos/eclipse_crowd.jpg' | relative_url }}" alt="A large crowd on the SMU campus watching the eclipse"><figcaption class="sans">The crowd on campus during the eclipse</figcaption></figure>
+  <figure><img loading="lazy" src="{{ '/public/photos/viewing_night_2026_10.jpg' | relative_url }}" alt="Students and visitors with telescopes on a lawn at night, in front of a campus building lit in red"><figcaption class="sans">Public viewing night, October 2026</figcaption></figure>
+  <figure><img loading="lazy" src="{{ '/public/photos/viewing_night_2026_02.jpg' | relative_url }}" alt="A telescope set up at night on campus, with people gathered around"><figcaption class="sans">Public viewing night, February 2026</figcaption></figure>
+</div>
 
 ## Public talks
 
