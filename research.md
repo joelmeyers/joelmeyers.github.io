@@ -126,6 +126,13 @@ Gravitational waves offer a window onto fundamental physics across an enormous r
 
 At nanohertz frequencies, pulsar timing arrays have found evidence for a background of gravitational waves. Supermassive black hole binaries are the expected source, but the signal could also come from the early universe: for example, gravitational waves from inflation, amplified by a period of kination in which the expansion was dominated by the kinetic energy of a scalar field, can also fit current data. Gravitational waves can also be found in data collected for other purposes. A gravitational wave passing the Earth shifts the apparent positions of distant sources in a correlated, time-dependent pattern, and time-dependent deflection reconstruction searches for this pattern in CMB maps, extending sensitivity to frequencies both below and above those covered by pulsar timing arrays. Precise timing of strongly lensed repeating fast radio bursts, or of the continuous gravitational waves from Galactic binaries seen by a space-based detector like LISA, can likewise reveal long-wavelength gravitational waves.
 
+<figure class="research-fig wide">
+  <video class="anim" loop muted playsinline preload="none" poster="{{ '/public/figures/gw_deflection_poster.jpg' | relative_url }}" aria-label="A simulated full-sky map of the CMB swaying back and forth as a gravitational wave passes the Earth, with arrows showing the pattern of apparent shifts, greatly exaggerated">
+    <source src="{{ '/public/figures/gw_deflection.mp4' | relative_url }}" type="video/mp4">
+  </video>
+</figure>
+{% comment %} Animation: cosmo-explorations/web/web_gw_deflection.py, our web-style version of Alvin Leluc's full-sky animations (author, 2026-11-09); re-encoded at CRF 32 for the site (0.9 MB). Placement after the text, the GW landscape above, to be confirmed by the author. {% endcomment %}
+
 <ul class="papers sans">
   <li>N. Pearson, C. Trendafilova, and J. Meyers, <a href="https://arxiv.org/abs/2009.11252">Searching for Gravitational Waves with Strongly Lensed Repeating Fast Radio Bursts</a>, Phys. Rev. D 103 (2021) 063017</li>
   <li>M. J. Bustamante-Rosell, J. Meyers, N. Pearson, C. Trendafilova, and A. Zimmerman, <a href="https://arxiv.org/abs/2107.02788">Gravitational wave timing array</a>, Phys. Rev. D 105 (2022) 044005</li>
