@@ -19,8 +19,9 @@ You can see my publications on [INSPIRE](https://inspirehep.net/authors/1041642 
 ### The Cosmological Preference for Negative Neutrino Mass
 
 <figure class="research-fig">
-  <img src="{{ '/public/figures/mnu_dark_force.png' | relative_url }}" alt="A model in which dark matter feels a long-range force, compared with neutrino-mass constraints from the expansion history and from clustering (Graham, Green and Meyers 2026)">
+  <img src="{{ '/public/figures/negative_mnu.png' | relative_url }}" alt="The inferred sum of neutrino masses, with negative values allowed: CMB data alone and CMB with DESI both prefer a value below zero, below the minimum allowed by neutrino oscillations">
 </figure>
+{% comment %} Figure: cosmo-explorations/web/web_negative_mnu.py (DESI DR2 published intervals; replaces the paper figure mnu_dark_force.png, author 2026-11-08). {% endcomment %}
 
 Neutrinos have mass, and massive neutrinos change both the expansion history of the universe and the growth of structure, which makes cosmology sensitive to the sum of their masses. Surprisingly, the most precise current data from the cosmic microwave background and baryon acoustic oscillations prefer a value below zero, which is unphysical for ordinary neutrinos and may be a hint of new physics. With collaborators, I have shown how this preference arises in the data and explored physical mechanisms that could explain it, including long-range interactions in the dark matter, primordial non-Gaussianity, and non-standard neutrino interactions. My group is now testing this further: Ph.D. student Joshua Perez is studying whether more general primordial fluctuations alter the preference, and Christopher Cook, now a Ph.D. student at UT Austin, and I are studying how early dark energy affects the cosmological measurement of neutrino mass.
 
