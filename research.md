@@ -41,6 +41,13 @@ Neutrinos have mass, and massive neutrinos change both the expansion history of 
 
 Light relics are light particles that were produced abundantly in the hot early universe, like the three species of neutrinos of the Standard Model. The neutrinos fell out of equilibrium about one second after the Big Bang, but they remain extremely numerous today, making up the cosmic neutrino background. The gravitational influence of light relics leaves observable signatures in the cosmic microwave background and large-scale structure, so measuring their density probes neutrino physics and very weakly interacting particles beyond the Standard Model. I showed that free-streaming radiation shifts the phase of the acoustic peaks in the CMB, a robust signature that has since been measured in CMB and DESI BAO data. I have also studied how comparing the light relic density measured in the CMB with the abundances of light elements produced in big bang nucleosynthesis tests new physics in the early universe. Simons Observatory will substantially improve these measurements, sharpening tests of dark sector physics and of whether light relics play a role in the preference for negative neutrino mass.
 
+<figure class="research-fig wide">
+  <video class="anim" loop muted playsinline preload="none" poster="{{ '/public/figures/phase_shift_poster.jpg' | relative_url }}" aria-label="The neutrino phase shift: with the amount of radiation fixed, neutrinos switched between a fluid and free streaming. Free-streaming neutrinos run ahead of the photon-baryon sound shell at recombination, and the CMB temperature peaks shift to larger angular scales">
+    <source src="{{ '/public/figures/phase_shift.mp4' | relative_url }}" type="video/mp4">
+  </video>
+</figure>
+{% comment %} Animation: cosmo-explorations/web/web_phase_shift.py (author, 2026-11-09: animations of related science are not held for the review). Placement after the text, with the still above, to be confirmed by the author. {% endcomment %}
+
 <ul class="papers sans">
   <li>D. Baumann, D. Green, J. Meyers, and B. Wallisch, <a href="https://arxiv.org/abs/1508.06342">Phases of New Physics in the CMB</a>, JCAP 01 (2016) 007</li>
   <li>D. Green et al., <a href="https://arxiv.org/abs/1903.04763">Messengers from the Early Universe: Cosmic Neutrinos and Other Light Relics</a>, Bull. Am. Astron. Soc. 51 (2019) 159</li>
