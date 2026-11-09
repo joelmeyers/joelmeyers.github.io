@@ -8,7 +8,11 @@ baseurl:     ""
 markdown:    kramdown
 
 # Contact (shown in the footer of every page)
-address:     Department of Physics, Southern Methodist University, 3215 Daniel Ave. Rm 102, Dallas, TX 75205-1437
+# One line each in the footer; the author's own office (Room 209, author 2026-11-09; was the department office, Rm 102)
+address:
+  - Department of Physics, Southern Methodist University
+  - Fondren Science Building, Room 209
+  - 3215 Daniel Ave., Dallas, TX 75205-1437
 email_text:  jrmeyers [at] smu [dot] edu
 
 exclude:     [README.md]

@@ -75,6 +75,8 @@ h3 { font-size: 22px; font-weight: 600; margin: 28px 0 6px; }
 
 /* Footer */
 .site-footer { margin-top: 56px; padding: 20px 0 48px; border-top: 1px solid var(--rule); color: var(--muted); }
+.site-footer address { font-style: normal; line-height: 1.7; }
+.site-footer .line { display: block; }
 
 /* Visitors who ask for reduced motion: no hover movement (videos stay on their poster, public/js/anim.js) */
 @media (prefers-reduced-motion: reduce) {

@@ -31,7 +31,7 @@
   </main>
 
   <footer id="contact" class="site-footer sans">
-    {{ site.address }} · {{ site.email_text }}
+    <address>{% for line in site.address %}<span class="line">{{ line }}</span>{% endfor %}<span class="line">{{ site.email_text }}</span></address>
   </footer>
 </div>
 <script src="{{ '/public/js/anim.js' | relative_url }}" defer></script>
