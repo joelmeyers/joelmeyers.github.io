@@ -9,7 +9,8 @@ published: true
   page (details from the author), SMU News (webinar announcement: Thursday March 28 [2024], 12:15-1 pm;
   "New physics needed? Maybe", 2024-09-19), Lifehacker (Stephen Johnson, 2026-01-16, also on Yahoo News), Popular Mechanics (Jordan Smith,
   2026-02-25; headline and date from the author, the site blocks automated access), SMU Daily Campus
-  (Malia House, 2024-04-08; Ceara Johnson, 2024-04-02; details from the author, the site blocks automated access). Photos of the eclipse event and the viewing nights to come from the author.
+  (Malia House, 2024-04-08; Ceara Johnson, 2024-04-02; details from the author, the site blocks automated access),
+  WFMY News 2 clip (YouTube, 2024-04-08; the author confirmed he is interviewed in it). Photos of the eclipse event and the viewing nights to come from the author.
 {% endcomment %}
 
 I was the lead organizer of SMU's viewing event for the April 2024 total solar eclipse, which drew thousands of spectators, with lead-up talks, demonstrations, and public engagement involving students and postdocs. The event grew into regular public astronomical viewing nights with the SMU Society of Physics Students, with telescopes operated by graduate students.
@@ -28,6 +29,7 @@ I was the lead organizer of SMU's viewing event for the April 2024 total solar e
 <ul class="papers sans">
   <li><a href="https://www.linkedin.com/posts/research-at-smu_out-of-this-world-smu-theoretical-physics-activity-7292659560253661197-0gyy"><em>The cosmological preference for negative neutrino mass</em></a>, video, Research at SMU, February 2025</li>
   <li><a href="https://open.spotify.com/episode/33jlVUxrX1w32yGs74cP2W"><em>Cosmological Connections</em></a>, STEAMology podcast (Highland Park ISD), episode 15, September 2024</li>
+  <li><a href="https://www.youtube.com/watch?v=dCvbr6nyNgw"><em>Hundreds of thousands of travelers head to Texas to see the solar eclipse</em></a>, WFMY News 2 (CBS), April 2024 (interview)</li>
   <li><a href="https://open.spotify.com/episode/5sVDiXMNOxiTXv9g9lR7H0"><em>Explaining Eclipses</em></a>, STEAMology podcast (Highland Park ISD), episode 2, February 2024</li>
 </ul>
 
