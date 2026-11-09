@@ -47,7 +47,9 @@ h3 { font-size: 22px; font-weight: 600; margin: 28px 0 6px; }
 .theme { display: grid; grid-template-columns: 240px 1fr; gap: 28px; margin: 0 0 30px; align-items: start; }
 .theme .fig { display: flex; align-items: center; justify-content: center; height: 160px; padding: 6px;
   border: 1px solid var(--rule); background: #fff; }
-.theme .fig img { max-height: 100%; width: auto; }
+.theme .fig img, .theme .fig video { max-height: 100%; max-width: 100%; width: auto; }
+.theme .fig { transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; }
+.theme .fig:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(34, 32, 29, .10); border-color: #d6cfc5; }
 .theme .fig.placeholder { color: var(--muted); background: var(--panel); }
 .theme h3 { margin-top: 0; }
 .theme p { margin: 0; color: #4a4642; }
@@ -73,6 +75,11 @@ h3 { font-size: 22px; font-weight: 600; margin: 28px 0 6px; }
 
 /* Footer */
 .site-footer { margin-top: 56px; padding: 20px 0 48px; border-top: 1px solid var(--rule); color: var(--muted); }
+
+/* Visitors who ask for reduced motion: no hover movement (videos stay on their poster, public/js/anim.js) */
+@media (prefers-reduced-motion: reduce) {
+  .theme .fig, .theme .fig:hover { transition: none; transform: none; }
+}
 
 @media (max-width: 640px) {
   body { font-size: 18px; }

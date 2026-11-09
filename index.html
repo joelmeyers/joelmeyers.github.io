@@ -25,12 +25,14 @@ home: true
 </div>
 
 <div class="theme">
-  <a class="fig" href="{{ '/research.html' | relative_url }}"><img src="{{ '/public/figures/fig_FoM.png' | relative_url }}" alt="Figure of merit for CMB surveys with and without delensing"></a>
+  <a class="fig" href="{{ '/research.html' | relative_url }}"><video class="anim" loop muted playsinline preload="none" poster="{{ '/public/figures/lensing_teb_poster.jpg' | relative_url }}" aria-label="A simulated patch of the CMB in temperature, E-mode and B-mode polarization, with gravitational lensing turned slowly off and on"><source src="{{ '/public/figures/lensing_teb.mp4' | relative_url }}" type="video/mp4"></video></a>
+  {% comment %} Was the paper figure fig_FoM.png (figure of merit with and without delensing); replaced by the lensing animation (author, 2026-11-09). {% endcomment %}
   <div><h3>Enhancing the Value of CMB Surveys</h3><p>Delensing, new probes of cosmic structure, and machine learning tools.</p></div>
 </div>
 
 <div class="theme">
-  <a class="fig" href="{{ '/research.html' | relative_url }}"><img src="{{ '/public/figures/leluc_time_dependent_deflection.jpg' | relative_url }}" alt="Fourier transform of a time series of CMB maps, with the echo of a gravitational-wave deflection in one frequency slice (Leluc et al. 2025)"></a>
+  <a class="fig" href="{{ '/research.html' | relative_url }}"><img src="{{ '/public/figures/gw_landscape.png' | relative_url }}" alt="The gravitational-wave landscape from 10^-19 to 10^4 hertz, with the frequency ranges covered by CMB B modes, pulsar timing arrays, CMB time-dependent deflection, a gravitational-wave timing array, LISA, and LIGO-Virgo-KAGRA"></a>
+  {% comment %} Was Leluc et al.'s paper figure leluc_time_dependent_deflection.jpg; the GW landscape stands in until a web-style time-dependent deflection animation is made (author, 2026-11-09). {% endcomment %}
   <div><h3>Gravitational Waves Across Frequencies</h3><p>Primordial B modes, pulsar timing arrays, and new searches with the CMB and lensed fast radio bursts.</p></div>
 </div>
 

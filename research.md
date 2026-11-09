@@ -54,7 +54,7 @@ Light relics are light particles that were produced abundantly in the hot early 
 ### CMB Delensing
 
 <figure class="research-fig wide">
-  <video autoplay loop muted playsinline poster="{{ '/public/figures/lensing_teb_poster.jpg' | relative_url }}" aria-label="A simulated patch of the CMB in temperature, E-mode and B-mode polarization, with gravitational lensing turned slowly off and on">
+  <video class="anim" loop muted playsinline preload="none" poster="{{ '/public/figures/lensing_teb_poster.jpg' | relative_url }}" aria-label="A simulated patch of the CMB in temperature, E-mode and B-mode polarization, with gravitational lensing turned slowly off and on">
     <source src="{{ '/public/figures/lensing_teb.mp4' | relative_url }}" type="video/mp4">
   </video>
 </figure>
